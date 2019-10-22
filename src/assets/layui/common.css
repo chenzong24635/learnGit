@@ -1,0 +1,12 @@
+.white-bg{background: #fff;font-family: 'Microsoft YaHei';font-size:14px;color:#2c2c2c}
+.page-title{padding: 22px 30px;display: flex;align-items: center;justify-content: space-between;}
+.page-title .main-title span:first-child{font-size: 18px;color: #64727f;}
+.page-title .main-title span:last-child{font-size: 14px;color: #485a6a;margin-left: 10px}
+.flex-item{display: flex;align-items: center;color: #888888;font-size: 16px;cursor: pointer;}
+.flex-item i{font-size: 30px;color:#32c9f5}
+.flex-item span{color: #888888;font-size: 16px;}
+.line-clamp{overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;cursor: pointer;color: rgb(68, 126, 217)}
+.nobzdata{color: #0088CC;cursor: pointer;}
+.search-item{display: flex;align-items: center;justify-content: space-between}
+.search-item .margin-left-span{margin-left: 20px;}
+.search-item .span-gray-color{font-size: 16px;color: #2c2c2c}

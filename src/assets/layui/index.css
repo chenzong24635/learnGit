@@ -1,0 +1,61 @@
+ul, li{list-style: none}
+.data-title{display: flex;align-items: center;padding-left: 16px;}
+.data-title div{margin-left: 20px;color:#578cba;font-size:18px;}
+.data-title h4{font-size: 20px;color: #578cba;}
+.data-title p{font-size: 14px;color: #485a6a}
+.list-ul, .order-li-ul{padding: 10px 16px;overflow: hidden;}
+.list-ul .all-price-li{position: relative;height: 130px;width: 18%;border-radius: 5px;color: #fff;float: left;margin-right: 0.5%}
+.list-ul .all-price-li h4{font-size: 26px;padding-left: 15px;padding-top: 35px;font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: normal}
+.blueBg{background: #2dbfe8;}
+.greenBg{background: #49cdb6}
+.orangeBg{background: #eb8735}
+.redBg{background: #fe5f62;margin-right: 0.5%}
+.redBgTwo{background: #fe5f62;}
+.yellowBg{background: #f9b900;}
+.list-ul .all-price-li h5{font-size: 20px;padding-left: 15px;padding-top: 12px;}
+.all-count-li{width: 9%;float: left;height: 130px;display: flex;flex-direction: column;justify-content: space-between;margin-right: 0.5%}
+.all-count-li div{background: #f2f4f9;height: 60px;border-radius: 5px;text-align: center;display: flex;flex-direction: column;justify-content: center;font-size: 12px;color: #2c2c2c}
+.all-count-li div p, .yuqi-price-li .top-price div{font-size: 14px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.yuqi-price-li{width: 28.5%;display: flex;flex-direction: column;justify-content: space-between;float: left;height: 130px;}
+.yuqi-price-li .top-price{height: 60px;display: flex;align-items: center}
+.yuqi-price-li .top-price div:first-child{margin-right: 2%}
+.yuqi-price-li .top-price div{height: 60px;display: flex;flex-direction: column;justify-content: center;border-radius: 5px;font-size: 12px;color: #2c2c2c;width: 49%;background: #f2f4f9;text-align: center}
+.yuqi-price-li .bottom-price{height: 60px;background: #fe5f62;border-radius: 5px;color: #fff;text-align: center;display: flex;align-items: center;justify-content: center}
+.yuqi-price-li .bottom-price h4{margin-top: 20px;font-size: 26px;font-weight: normal;margin-left: 3%}
+.yuqi-price-li .bottom-price h5{font-size: 20px;margin-top: 20px;}
+.line-hr-div{width: 98%;margin: 30px auto;height: 1px;background: #ced0d6;}
+.one-list-li{width: 9.5%;height: 130px;color: #fff;border-radius: 5px;text-align: center;float: left;margin-right: 0.5%}
+.one-list-li h4, .one-list-li h5{font-weight: normal}
+.one-list-li h4{font-size: 18px;padding-top: 25px;}
+.one-list-li h5{font-size: 14px;margin-top: -5px;}
+.today-total-price{display: flex;padding-left: 4%;align-items: flex-end}
+.today-total-price .left-price{display: flex;align-items: center;color: #2c2c2c}
+.today-total-price .left-price h4{font-size: 18px;}
+.today-total-price .left-price span{font-size: 28px;}
+.today-total-price .left-price h5{font-weight: normal;font-size: 30px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.today-total-price .right-price{font-size: 14px;padding-bottom: 10px;color: #2dbfe8;text-decoration: underline;margin-left: 10%;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.all-panel-li{padding-left: 4%;overflow: hidden;margin-top: 40px;padding-bottom: 10px;}
+.all-panel-li li{float: left;width: 27.5%;color: #2c2c2c}
+.all-panel-li li h4{font-size: 18px;}
+.all-panel-li li .panel-flex-div{display: flex;align-items: center;justify-content: space-between;font-size: 14px;}
+.all-panel-li li .panel-flex-div .price{margin-top: 6px}
+.all-panel-li li .panel-flex-div .price span:last-child{font-size: 20px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.all-panel-li li .panel-flex-div p{font-size: 14px;color: #2c2c2c}
+.all-panel-li li .panel-flex-div p span{font-size: 20px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.margin-left-panel{margin-left: 8%}
+.bottom-price-panel{margin-left: 2%;padding-left: 2%;display: flex;align-items: center;margin-top: 20px;}
+.left-line{height: 80px;width: 10px;background: #2dbfe8;margin-right: 1.6%}
+.bottom-price-panel .bottom-titel{width: 19.5%}
+.bottom-price-panel .bottom-titel p,.bottom-price-panel .bottom-num p{line-height: 26px;font-size: 14px;color: #2c2c2c}
+.bottom-price-panel .bottom-titel p span,.bottom-price-panel .bottom-num p span{font-size: 20px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.bottom-price-panel .bottom-num{width: 6%;}
+.bottom-price-panel .bottom-num p{text-align: right}
+.progress-box{width: 28.5%;margin-left: 8%}
+.progress-box .progress-div{display: flex;align-items: center;margin-bottom: 8px;}
+.progress-box .progress-div span{width: 22%}
+.progress-box .progress{width: 90%;background: #e9ecf3;height: 20px;border-radius: 5px;}
+.progress-box .progress .small-progress{height: 20px;border-radius: 5px;text-align: right;color: #fff}
+.progress-box .progress .small-progress span{margin-right: 5%;line-height: 20px}
+.progress-box .yuqilv{height: 112px;display: flex;align-items: flex-end;justify-content: flex-end;font-size: 14px;color: #2c2c2c}
+.progress-box .yuqilv span:nth-child(2n){font-size: 80px;color: #00bdf0;line-height: 67px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.progress-box .yuqilv span:last-child{font-size: 30px;line-height: 36px;}
